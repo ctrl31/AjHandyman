@@ -16,6 +16,18 @@
                 <div><img src="images/img-3.png" class="services_img"></div>
                 <div class="btn_main"><a href="#">Camping</a></div>
              </div>
+             <div class="col-md-4">
+                <div><img src="images/img-3.png" class="services_img"></div>
+                <div class="btn_main"><a href="#">4</a></div>
+             </div>
+             <div class="col-md-4">
+                <div><img src="images/img-3.png" class="services_img"></div>
+                <div class="btn_main"><a href="#">5</a></div>
+             </div>
+             <div class="col-md-4">
+                <div><img src="images/img-3.png" class="services_img"></div>
+                <div class="btn_main"><a href="#">6</a></div>
+             </div>
           </div>
        </div>
     </div>
