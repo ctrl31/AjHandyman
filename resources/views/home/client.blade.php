@@ -64,5 +64,9 @@
                 </a>
             </div>
         </div>
+        <div class="newsletter_box">
+            <h1 class="let_text">Let Start Talk with Us</h1>
+            <div class="getquote_bt"><a href="#">Get A Quote</a></div>
+         </div>
     </div>
 </div>

@@ -15,10 +15,15 @@
 
       </div>
       <!-- header section end -->
+       
 
       <!-- services section start -->
       @include('home.services')
       <!-- services section end -->
+      
+      <!-- choose section start -->
+      @include('home.choose')
+      <!-- choose section end -->
 
       <!-- about section start -->
       @include('home.about')
@@ -32,9 +37,7 @@
       @include('home.client')
       <!-- client section end -->
 
-      <!-- choose section start -->
-      @include('home.choose')
-      <!-- choose section end -->
+     
       <!-- footer section start -->
       @include('home.footer')
       <!-- footer section end -->
