@@ -574,7 +574,7 @@ button {
 .play_icon_main {
     width: 100%;
     margin-top: 150px;
-    float: left;
+    text-align: center; /* Asegura que todo esté centrado */
 }
 
 .play_icon {
@@ -582,22 +582,24 @@ button {
     margin: 0 auto;
     position: relative;
     z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .play_icon::before {
     content: '';
     position: absolute;
-    top: 49%;
-    left: 70px;
+    top: 50%;
+    left: 50%;
     width: 130px;
     height: 130px;
     transform: translate(-50%, -50%);
-    background-color: #ffffff;
+    background-color: #b44141;
     border-radius: 100%;
     z-index: -1;
     animation: fadeEffect 1.3s infinite ease;
-    box-shadow: 0px 0px 10px 0px;
-    right: inherit;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes fadeEffect {

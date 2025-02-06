@@ -2,31 +2,43 @@
     <div class="container">
        <h1 class="services_taital">Services </h1>
        <p class="services_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+       <!--Primera fila de categorias-->
        <div class="services_section_2">
           <div class="row">
              <div class="col-md-4">
+               <!--Projects-->
                 <div><img src="images/img-1.png" class="services_img"></div>
-                <div class="btn_main"><a href="#">Rafting</a></div>
+                <div class="btn_main"><a href="#">Projects</a></div>
              </div>
+             <!--Inside-->
              <div class="col-md-4">
                 <div><img src="images/img-2.png" class="services_img"></div>
-                <div class="btn_main active"><a href="#">Hiking</a></div>
+                <div class="btn_main active"><a href="#">Inside</a></div>
              </div>
+             <!--Outside-->
              <div class="col-md-4">
                 <div><img src="images/img-3.png" class="services_img"></div>
-                <div class="btn_main"><a href="#">Camping</a></div>
+                <div class="btn_main"><a href="#">Outside</a></div>
              </div>
+          </div>
+       </div>
+       <!--Segunda fila de categorias con espaciado-->
+       <div class="services_section_2 mt-6">
+         <!--Electricist-->
+          <div class="row">
+             <div class="col-md-4">
+                <div><img src="images/img-1.png" class="services_img"></div>
+                <div class="btn_main"><a href="#">Electricist</a></div>
+             </div>
+             <!--Plumbing-->
+             <div class="col-md-4">
+                <div><img src="images/img-2.png" class="services_img"></div>
+                <div class="btn_main active"><a href="#">Plumbing</a></div>
+             </div>
+             <!--Cleaning-->
              <div class="col-md-4">
                 <div><img src="images/img-3.png" class="services_img"></div>
-                <div class="btn_main"><a href="#">4</a></div>
-             </div>
-             <div class="col-md-4">
-                <div><img src="images/img-3.png" class="services_img"></div>
-                <div class="btn_main"><a href="#">5</a></div>
-             </div>
-             <div class="col-md-4">
-                <div><img src="images/img-3.png" class="services_img"></div>
-                <div class="btn_main"><a href="#">6</a></div>
+                <div class="btn_main"><a href="#">Cleaning</a></div>
              </div>
           </div>
        </div>
