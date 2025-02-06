@@ -12,10 +12,8 @@
        </div>
        <div class="social_icon">
           <ul>
-             <li><a href="#"><img src="images/fb-icon.png"></a></li>
-             <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-             <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-             <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+             <li><a href="https://www.facebook.com/profile.php?id=61551907872313"><img src="images/fb-icon.png"></a></li>
+             <li><a href="https://www.instagram.com/ajfamily_handyman/"><img src="images/instagram-icon.png"></a></li>
           </ul>
        </div>
     </div>

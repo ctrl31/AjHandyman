@@ -133,15 +133,6 @@
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link" href="javascript:SendSMS()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                        <path d="M20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM4 20V4h16v16H4zm2-6h10v2H6v-2zm0-4h12v2H6v-2zm0-4h12v2H6V6z"></path>
-                        </svg>
-                        SMS
-                        </a>
-                        </li>
-
-                        <li class="nav-item">
                         <a class="nav-link" href="javascript:openGmail()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                         <path d="M12 12.713l-11.985-7.713v14h24v-14zM12 11l11.985-7h-23.97l11.985 7z"></path>
@@ -378,12 +369,10 @@
                <div class="call_text"><img src="images/mail-icon.png"></div>
                <div class="call_text"><a href="#">demo@gmail.com</a></div>
             </div>
-            <div class="social_icon">
+            <div class="social_icon d-flex justify-content-center flex-wrap gap-2">
                <ul>
-                  <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                  <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                  <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                  <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61551907872313"><img src="images/fb-icon.png"></a></li>
+                <li><a href="https://www.instagram.com/ajfamily_handyman/"><img src="images/instagram-icon.png"></a></li>
                </ul>
             </div>
          </div>
@@ -410,3 +399,66 @@
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
    </body>
 </html>
+
+
+<script>
+    function SendSMS() {
+        var num = "+16159811917";
+        var message = "I saw your website ... I am interested in a service";
+        var url = "sms:" + num + "?body=" + encodeURIComponent(message);
+
+        window.location.href = url;
+    }
+    </script>
+    <script>
+    function sendEmail() {
+                var email = "destinatario@ejemplo.com";  // Dirección de correo del destinatario
+                var subject = "Asunto del correo";  // Asunto del correo
+                var body = "Hola, este es el cuerpo del correo.";  // Cuerpo del correo
+
+                var mailtoLink = "mailto:" + email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
+                // Abre el enlace en una nueva pestaña
+                window.open(mailtoLink, '_blank');
+
+            }
+
+
+            function openGmail() {
+      // Dirección de correo electrónico del destinatario
+      var destinatario = "ajfamilyhandyman@gmail.com";
+
+      // Asunto del correo (opcional)
+      var asunto = "Extra Information";
+
+      // Cuerpo del correo (opcional)
+      var cuerpo = "Hi I am interested on your handyman services, could you give me some extra information?";
+
+      // Crear el enlace con el esquema mailto
+      var enlaceMailto = "mailto:" + destinatario + "?subject=" + encodeURIComponent(asunto) + "&body=" + encodeURIComponent(cuerpo);
+
+      // Abrir el enlace en una nueva ventana o pestaña
+      window.open(enlaceMailto);
+    }
+    </script>
+
+<style>
+    ul {
+  display: flex;
+  align-items: center; /* Alinea verticalmente los íconos */
+  gap: 1px; /* Espaciado uniforme entre íconos */
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Elimina los estilos de lista */
+}
+
+ul li {
+  margin: 0; /* Elimina márgenes extra */
+  padding: 0;
+}
+
+ul li a {
+  display: flex; /* Asegura que los íconos ocupen solo su tamaño natural */
+  align-items: center;
+}
+</style>

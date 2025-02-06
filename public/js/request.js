@@ -2,7 +2,6 @@ function openGmail() {
     // Obtener los valores de los campos del formulario
     var name = document.getElementById("name").value;
     var phone = document.getElementById("phone").value;
-    var email = document.getElementById("email").value;
     var message = document.getElementById("message").value;
 
     // Dirección de correo electrónico del destinatario
@@ -14,7 +13,6 @@ function openGmail() {
     // Cuerpo del correo con los datos del formulario
     var cuerpo = "Name: " + name + "\n" +
                  "Phone Number: " + phone + "\n" +
-                 "Email: " + email + "\n" +
                  "Message: " + message;
 
     // Crear el enlace con el esquema mailto

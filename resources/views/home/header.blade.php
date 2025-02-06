@@ -98,15 +98,6 @@
 </li>
 
 <li class="nav-item">
-    <a class="nav-link" href="javascript:SendSMS()">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-            <path d="M20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM4 20V4h16v16H4zm2-6h10v2H6v-2zm0-4h12v2H6v-2zm0-4h12v2H6V6z"></path>
-        </svg>
-        SMS
-    </a>
-</li>
-
-<li class="nav-item">
     <a class="nav-link" href="javascript:openGmail()">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
             <path d="M12 12.713l-11.985-7.713v14h24v-14zM12 11l11.985-7h-23.97l11.985 7z"></path>
