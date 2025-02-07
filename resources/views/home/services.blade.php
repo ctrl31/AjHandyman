@@ -8,17 +8,17 @@
              <div class="col-md-4">
                <!--Projects-->
                 <div><img src="images/img-1.png" class="services_img"></div>
-                <div class="btn_main"><a href="#">Projects</a></div>
+                <div class="btn_main"><a href="{{ route('projects') }}">Projects</a></div>
              </div>
              <!--Inside-->
              <div class="col-md-4">
                 <div><img src="images/img-2.png" class="services_img"></div>
-                <div class="btn_main active"><a href="#">Inside</a></div>
+                <div class="btn_main active"><a href="{{ route('inside') }}">Inside</a></div>
              </div>
              <!--Outside-->
              <div class="col-md-4">
                 <div><img src="images/img-3.png" class="services_img"></div>
-                <div class="btn_main"><a href="#">Outside</a></div>
+                <div class="btn_main"><a href="{{ route('outside') }}">Outside</a></div>
              </div>
           </div>
        </div>
@@ -28,17 +28,17 @@
           <div class="row">
              <div class="col-md-4">
                 <div><img src="images/img-1.png" class="services_img"></div>
-                <div class="btn_main"><a href="#">Electricist</a></div>
+                <div class="btn_main"><a href="{{ route('electricist') }}">Electricist</a></div>
              </div>
              <!--Plumbing-->
              <div class="col-md-4">
                 <div><img src="images/img-2.png" class="services_img"></div>
-                <div class="btn_main active"><a href="#">Plumbing</a></div>
+                <div class="btn_main active"><a href="{{ route('plumbing') }}">Plumbing</a></div>
              </div>
              <!--Cleaning-->
              <div class="col-md-4">
                 <div><img src="images/img-3.png" class="services_img"></div>
-                <div class="btn_main"><a href="#">Cleaning</a></div>
+                <div class="btn_main"><a href="{{ route('cleaning') }}">Cleaning</a></div>
              </div>
           </div>
        </div>

@@ -430,11 +430,25 @@ button {
     float: left;
     margin-top: 90px;
 }
+.services_section_3 {
+    width: 100%; /* O el ancho deseado */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-top: 90px;
+}
 
 .services_img {
     width: 100%;
     float: left;
     text-align: center;
+}
+.services_img2 {
+    width: 100%; /* O el ancho deseado */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-top: 90px;
 }
 
 .btn_main {
