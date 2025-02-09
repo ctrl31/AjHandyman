@@ -37,7 +37,7 @@
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="https://www.facebook.com/profile.php?id=61551907872313">
+                <a class="nav-link" href="https://www.facebook.com/profile.php?id=61551907872313" target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                 <path d="M22.675 0h-21.35c-.733 0-1.325.592-1.325 1.325v21.351c0 .732.592 1.324 1.325 1.324h11.494v-9.294h-3.13v-3.622h3.13v-2.671c0-3.1 1.893-4.786 4.66-4.786 1.325 0 2.462.099 2.795.143v3.24h-1.916c-1.506 0-1.796.717-1.796 1.765v2.309h3.588l-.467 3.622h-3.121v9.293h6.116c.732 0 1.325-.592 1.325-1.324v-21.351c0-.733-.593-1.325-1.325-1.325z"></path>
                 </svg>
@@ -46,7 +46,7 @@
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="https://www.thumbtack.com/profile/services/469087462542041101/">
+                <a class="nav-link" href="https://www.thumbtack.com/profile/services/469087462542041101/" target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                 <text x="6" y="18" font-size="28" font-family="Arial" font-weight="bold">T</text>
                 </svg>
@@ -55,7 +55,7 @@
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="https://www.instagram.com/ajfamily_handyman/">
+                <a class="nav-link" href="https://www.instagram.com/ajfamily_handyman/" target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                 <path d="M12 2.163c3.204 0 3.584.012 4.849.07 3.252.15 4.771 1.691 4.921 4.921.058 1.265.069 1.645.069 4.849s-.012 3.584-.07 4.849c-.15 3.225-1.664 4.771-4.921 4.921-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-3.257-.15-4.771-1.696-4.921-4.921-.058-1.265-.07-1.645-.07-4.849s.012-3.584.07-4.849c.15-3.23 1.669-4.771 4.921-4.921 1.265-.058 1.645-.07 4.849-.07m0-2.163c-3.259 0-3.667.014-4.947.072-4.093.184-6.333 2.42-6.517 6.517-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.184 4.087 2.424 6.333 6.517 6.517 1.28.058 1.688.072 4.947.072s3.667-.014 4.947-.072c4.087-.184 6.333-2.43 6.517-6.517.058-1.28.072-1.688.072-4.947s-.014-3.667-.072-4.947c-.184-4.097-2.424-6.333-6.517-6.517-1.28-.058-1.688-.072-4.947-.072zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8zm6.406-10.845a1.44 1.44 0 100 2.88 1.44 1.44 0 000-2.88z"/>
                 </svg>
@@ -65,7 +65,7 @@
 
 
                 <li class="nav-item">
-                <a class="nav-link" href="https://maps.app.goo.gl/DhV9PGrs4cJQjBNF8">
+                <a class="nav-link" href="https://maps.app.goo.gl/DhV9PGrs4cJQjBNF8" target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                 <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"></path>
                 </svg>
@@ -74,7 +74,7 @@
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="request.html">
+                <a class="nav-link" href="{{ route('request') }}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                 <path d="M10 17l5-5-5-5v10z"></path>
                 </svg>
@@ -110,7 +110,7 @@
 </li>
 
 <li class="nav-item">
-    <a class="nav-link" href="https://www.facebook.com/profile.php?id=61551907872313">
+    <a class="nav-link" href="https://www.facebook.com/profile.php?id=61551907872313" target="_blank" rel="noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
             <path d="M22.675 0h-21.35c-.733 0-1.325.592-1.325 1.325v21.351c0 .732.592 1.324 1.325 1.324h11.494v-9.294h-3.13v-3.622h3.13v-2.671c0-3.1 1.893-4.786 4.66-4.786 1.325 0 2.462.099 2.795.143v3.24h-1.916c-1.506 0-1.796.717-1.796 1.765v2.309h3.588l-.467 3.622h-3.121v9.293h6.116c.732 0 1.325-.592 1.325-1.324v-21.351c0-.733-.593-1.325-1.325-1.325z"></path>
         </svg>
@@ -119,7 +119,7 @@
 </li>
 
 <li class="nav-item">
-    <a class="nav-link" href="https://www.thumbtack.com/profile/services/469087462542041101/">
+    <a class="nav-link" href="https://www.thumbtack.com/profile/services/469087462542041101/" target="_blank" rel="noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
             <text x="6" y="18" font-size="28" font-family="Arial" font-weight="bold">T</text>
         </svg>
@@ -128,7 +128,7 @@
 </li>
 
 <li class="nav-item">
-    <a class="nav-link" href="https://www.instagram.com/ajfamily_handyman/">
+    <a class="nav-link" href="https://www.instagram.com/ajfamily_handyman/" target="_blank" rel="noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
             <path d="M12 2.163c3.204 0 3.584.012 4.849.07 3.252.15 4.771 1.691 4.921 4.921.058 1.265.069 1.645.069 4.849s-.012 3.584-.07 4.849c-.15 3.225-1.664 4.771-4.921 4.921-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-3.257-.15-4.771-1.696-4.921-4.921-.058-1.265-.07-1.645-.07-4.849s.012-3.584.07-4.849c.15-3.23 1.669-4.771 4.921-4.921 1.265-.058 1.645-.07 4.849-.07m0-2.163c-3.259 0-3.667.014-4.947.072-4.093.184-6.333 2.42-6.517 6.517-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.184 4.087 2.424 6.333 6.517 6.517 1.28.058 1.688.072 4.947.072s3.667-.014 4.947-.072c4.087-.184 6.333-2.43 6.517-6.517.058-1.28.072-1.688.072-4.947s-.014-3.667-.072-4.947c-.184-4.097-2.424-6.333-6.517-6.517-1.28-.058-1.688-.072-4.947-.072zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8zm6.406-10.845a1.44 1.44 0 100 2.88 1.44 1.44 0 000-2.88z"/>
         </svg>
@@ -138,7 +138,7 @@
 
 
 <li class="nav-item">
-    <a class="nav-link" href="https://maps.app.goo.gl/DhV9PGrs4cJQjBNF8">
+    <a class="nav-link" href="https://maps.app.goo.gl/DhV9PGrs4cJQjBNF8" target="_blank" rel="noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
             <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"></path>
         </svg>
@@ -147,7 +147,7 @@
 </li>
 
 <li class="nav-item">
-    <a class="nav-link" href="request.html">
+    <a class="nav-link" href="{{ route('request') }}">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
             <path d="M10 17l5-5-5-5v10z"></path>
         </svg>

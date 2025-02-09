@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ExtraController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ServiceController;
 
@@ -19,4 +20,7 @@ Route:: get('/outside',[ServiceController::class, 'outside'])->name('outside');
 Route:: get('/inside',[ServiceController::class, 'inside'])->name('inside');
 Route:: get('/electricist',[ServiceController::class, 'electricist'])->name('electricist');
 Route:: get('/cleaning',[ServiceController::class, 'cleaning'])->name('cleaning');
+//RUTAS PARA EXTRAS
+Route:: get('/request',[ExtraController::class, 'request'])->name('request');
+Route:: get('/about_us',[ExtraController::class, 'about_us'])->name('about_us');
 
