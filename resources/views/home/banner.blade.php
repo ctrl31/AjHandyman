@@ -3,23 +3,23 @@
        <div class="carousel-inner">
           <div class="carousel-item active">
              <div class="container">
-                <h1 class="banner_taital">Banner  1</h1>
-                <p class="banner_text">Puedes modificar la info y la direccion a ala  que dirigira el boton</p>
-                <div class="read_bt"><a href="{{ route('request') }}">Get A Quote</a></div>
+                <h1 class="banner_taital">Cleaning</h1>
+                <p class="banner_text">Press the following botton to discorver our jobs</p>
+                <div class="read_bt"><a href="{{ route('cleaning') }}">View</a></div>
              </div>
           </div>
           <div class="carousel-item">
              <div class="container">
-                <h1 class="banner_taital">Banner 2</h1>
+                <h1 class="banner_taital">Inside</h1>
                 <p class="banner_text"> Puedes modificar la info y la direccion a ala  que dirigira el boton</p>
-                <div class="read_bt"><a href="{{ route('request') }}">Get A Quote</a></div>
+                <div class="read_bt"><a href="{{ route('inside') }}">View</a></div>
              </div>
           </div>
           <div class="carousel-item">
              <div class="container">
-                <h1 class="banner_taital">Banner 3</h1>
+                <h1 class="banner_taital">Outside</h1>
                 <p class="banner_text">Puedes modificar la info y la direccion a ala  que dirigira el boton</p>
-                <div class="read_bt"><a href="{{ route('request') }}">Get A Quote</a></div>
+                <div class="read_bt"><a href="{{ route('outside') }}">View</a></div>
              </div>
           </div>
        </div>

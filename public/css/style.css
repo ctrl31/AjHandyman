@@ -298,6 +298,7 @@ button {
     margin: 0 auto;
 }
 
+
 .menu_main ul {
     margin: 0px;
     padding: 0px;
@@ -325,7 +326,7 @@ button {
 
 .menu_main li a:hover {
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #9e2626;
 }
 
 .mb-lg-0,
@@ -393,7 +394,7 @@ button {
 }
 
 .read_bt a:hover {
-    background-color: #2b2278;
+    background-color: #9e2626;
     color: #ffffff;
 }
 
@@ -431,11 +432,11 @@ button {
     margin-top: 90px;
 }
 .services_section_3 {
-    width: 100%; /* O el ancho deseado */
+    width: 100%;
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .services_img {
@@ -444,11 +445,17 @@ button {
     text-align: center;
 }
 .services_img2 {
-    width: 100%; /* O el ancho deseado */
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    max-width: 250px; /* Ajusta el tamaño máximo de las imágenes */
+    display: block;
+    margin: 0 auto; /* Centra las imágenes */
+    padding: 10px; /* Espacio entre imágenes */
+}
+
+.row {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    margin-top: 90px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .btn_main {
@@ -462,7 +469,7 @@ button {
     float: left;
     font-size: 16px;
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #9e2626;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -541,7 +548,7 @@ button {
 
 .readmore_bt a:hover {
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #9e2626;
 }
 
 .about_img {
@@ -609,7 +616,7 @@ button {
     width: 130px;
     height: 130px;
     transform: translate(-50%, -50%);
-    background-color: #b44141;
+    background-color: #9e2626;
     border-radius: 100%;
     z-index: -1;
     animation: fadeEffect 1.3s infinite ease;
@@ -715,7 +722,7 @@ button {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #012628;
+    color: #9e2626;
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
@@ -727,7 +734,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #085a57;
+    color: #9e2626;
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
@@ -738,12 +745,12 @@ button {
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    background-color: #8781bd;
+    background-color: #939395;
     bottom: -130px;
 }
 
 .carousel-indicators .active {
-    background-color: #2b2278;
+    background-color: #9e2626;
 }
 
 
@@ -796,7 +803,7 @@ button {
 }
 
 .read_bt_1 a:hover {
-    background-color: #2b2278;
+    background-color: #9e2626;
     color: #ffffff;
 }
 
@@ -828,7 +835,7 @@ button {
     float: left;
     font-size: 16px;
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #9e2626;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -851,57 +858,58 @@ button {
     padding-bottom: 90px;
 }
 .contact_taital {
-    width: 100%;
-    float: left;
-    font-size: 40px;
-    color: #363636;
+    font-size: 32px;
+    color: #222;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 20px;
 }
+
 .email_text {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 40px;
 }
-.email-bt {
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.email-bt, .massage-bt {
     width: 100%;
-    float: left;
-    font-size: 18px;
-    color: #393838;
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    border: 0px;
-    border: 1px solid #2b2278 !important;
+    font-size: 16px;
+    color: #333;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
 }
-.massage-bt {
-    width: 100%;
-    float: left;
-    font-size: 18px;
-    color: #393838;
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    border: 0px;
-    border: 1px solid #2b2278 !important;
+
+.email-bt:focus, .massage-bt:focus {
+    border-color: #9e2626;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.3);
 }
+
 .send_btn {
-    width: 170px;
-    margin: 0 auto;
     text-align: center;
+    margin-top: 15px;
 }
-.send_btn a {
-    width: 100%;
-    float: right;
-    text-align: center;
-    font-size: 20px;
-    color: #ffffff;
-    border-radius: 30px;
-    background-color: #000d10;
-    padding: 7px;
+
+.send_btn button {
+    background-color: #9e2626;
+    color: white;
+    font-size: 14;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
 }
-.send_btn a:hover {
-    color: #ffffff;
-    background-color: #2b2278;
+
+.send_btn button:hover {
+    background-color: #000000;
 }
 /* contact section end */
 
@@ -949,7 +957,7 @@ button {
     width: 170px;
     float: left;
     font-size: 18px;
-    color: #2b2278;
+    color: #000000;
     background-color: transparent;
     padding: 5px 0px;
     text-align: center;
@@ -1009,7 +1017,7 @@ button {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #122c2d;
+    background-color: #9e2626;
     height: auto;
 }
 
@@ -1028,4 +1036,8 @@ button {
 
 .copyright_text a:hover {
     color: #e27141;
+}
+
+svg {
+    color: rgb(255, 255, 255); /* Cambia el color del SVG */
 }
