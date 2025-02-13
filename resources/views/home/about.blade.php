@@ -9,7 +9,7 @@
              </div>
           </div>
           <div class="col-md-6 padding_right_0">
-             <div><img src="images/O26.jpeg" class="about_img"></div>
+             <div><img src="images/home/O26.jpeg" class="about_img"></div>
           </div>
        </div>
     </div>

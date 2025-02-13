@@ -3,7 +3,7 @@
     <!--HEADER MOBILE BEGIN-->
     <div class="mobile_menu">
        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="logo_mobile"><a href="{{'login'}}"><img src="images/logo.png"></a></div>
+          <div class="logo_mobile"><a href="{{ route('homepage') }}"><img src="images/logo.png"></a></div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -88,7 +88,7 @@
     <!--HEADER MOBILE FINISH-->
     <!--HEADER PC BEGIN-->
     <div class="container-fluid">
-       <div class="logo"><a href="{{'login'}}"><img src="images/logo.png"></a></div>
+       <div class="logo"><a href="{{ route('homepage') }}"><img src="images/logo.png"></a></div>
        <div class="menu_main">
           <ul>
           <li class="nav-item">

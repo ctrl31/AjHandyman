@@ -34,6 +34,11 @@
       @include('home.blog')
       <!-- blog section end -->
 
+
+      <!-- message section start -->
+      @include('home.message')
+      <!-- message section end -->
+
       <!-- client section start -->
       @include('home.client')
       <!-- client section end -->
