@@ -11,14 +11,14 @@
           <div class="carousel-item">
              <div class="container">
                 <h1 class="banner_taital">Inside</h1>
-                <p class="banner_text"> Puedes modificar la info y la direccion a ala  que dirigira el boton</p>
+                <p class="banner_text"> Press the following botton to discorver our jobs</p>
                 <div class="read_bt"><a href="{{ route('inside') }}">View</a></div>
              </div>
           </div>
           <div class="carousel-item">
              <div class="container">
                 <h1 class="banner_taital">Outside</h1>
-                <p class="banner_text">Puedes modificar la info y la direccion a ala  que dirigira el boton</p>
+                <p class="banner_text">Press the following botton to discorver our jobs</p>
                 <div class="read_bt"><a href="{{ route('outside') }}">View</a></div>
              </div>
           </div>

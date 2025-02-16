@@ -21,7 +21,11 @@
       <div class="services_section layout_padding">
         <div class="container">
            <h1 class="services_taital">Electricist</h1>
-           <p class="services_text">Este es el ejemplo de pagina galeria para Electricist deje comentarios en el codigo recuerda que los estilos se ubican en el archivo style.css ubicado en la carpeta public/css/styles.css</p>
+           <p class="services_text">We offer a full suite of electrical services to ensure the safety,
+            functionality, and efficiency of your home or business. From
+            troubleshooting electrical issues to installing new fixtures and
+            wiring, our licensed electricians have the expertise to handle all
+            your electrical needs with professionalism and precision.</p>
         </div>
 
            <!--Imagenes-->

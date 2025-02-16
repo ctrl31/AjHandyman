@@ -21,7 +21,7 @@
       <div class="services_section layout_padding">
         <div class="container">
            <h1 class="services_taital">Projects</h1>
-           <p class="services_text">Este es el ejemplo de pagina galeria para proyectos deje comentarios en el codigo recuerda que los estilos se ubican en el archivo style.css ubicado en la carpeta public/css/styles.css</p>
+           <p class="services_text"></p>
         </div>
 
            <!--Imagenes-->

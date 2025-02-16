@@ -21,7 +21,8 @@
       <div class="services_section layout_padding">
         <div class="container">
            <h1 class="services_taital">Cleaning</h1>
-           <p class="services_text">Este es el ejemplo de pagina galeria para Cleaning deje comentarios en el codigo recuerda que los estilos se ubican en el archivo style.css ubicado en la carpeta public/css/styles.css</p>
+           <p class="services_text"> We can provide deep cleaning and continue with maintenance cleanings
+           according to the needs of each client</p>
         </div>
 
            <!--Imagenes-->

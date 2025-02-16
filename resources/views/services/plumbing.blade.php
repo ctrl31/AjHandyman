@@ -21,7 +21,12 @@
       <div class="services_section layout_padding">
         <div class="container">
            <h1 class="services_taital">Plumbing</h1>
-           <p class="services_text">Este es el ejemplo de pagina galeria para Plumbing deje comentarios en el codigo recuerda que los estilos se ubican en el archivo style.css ubicado en la carpeta public/css/styles.css</p>
+           <p class="services_text">Our "Plumbing" category offers a comprehensive range of plumbing
+            services to address all your residential and commercial plumbing
+            needs. From leak repairs and pipe installations to water heater
+            maintenance and sewer line inspections, our team of skilled plumbers
+            is dedicated to delivering top-quality workmanship and exceptional
+            customer service.</p>
         </div>
 
            <!--Imagenes-->
