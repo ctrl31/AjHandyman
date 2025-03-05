@@ -33,32 +33,54 @@
                  <!--1er imagen-->
                  <!--ten cuidado con las direcciones de las imagenes-->
                   <!--como observas estas imagenes usan la clase "service_img2"  para centrar las imagenes automaticamnete " -->
-                  <div><img src="images/projects/project-1.png" class="services_img2"></div>
+                  <div><img src="images/projects/pro_1_1.png" class="services_img2"></div>
                   <!--Si vas a acomodar imagenes de otras formas crea otra clase para esa configuracion para no alterar todas las demas -->
                </div>
                <!--2da imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-2.png" class="services_img2"></div>
+                  <div><img src="images/projects/pro_1_2.png" class="services_img2"></div>
                   
                </div>
                <!--3er imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-3.png" class="services_img2"></div>
+                  <div><img src="images/projects/pro_1_3.png" class="services_img2"></div>
                  
                </div>
-               <!--4ta imagen-->
-               <div class="col-md-6">
-                  <div><img src="images/projects/project-4.png" class="services_img2"></div>
-                 
-               </div>
+               
+              
                <!--5ta imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-5.png" class="services_img2"></div>
+                  <div><img src="images/projects/pro_2_1.png" class="services_img2"></div>
                  
                </div>
                <!--6ta imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-6.png" class="services_img2"></div>
+                  <div><img src="images/projects/pro_2_2.png" class="services_img2"></div>
+                 
+               </div>
+               <!--7ma imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/projects/pro_2_3.png" class="services_img2"></div>
+                 
+               </div>
+               <!--8va imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/projects/pro_2_4.png" class="services_img2"></div>
+                 
+               </div>
+               <!--9na imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/projects/pro_3_1.png" class="services_img2"></div>
+                 
+               </div>
+               <!--10ma imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/projects/pro_3_2.png" class="services_img2"></div>
+                 
+               </div>
+               <!--11va imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/projects/pro_3_3.png" class="services_img2"></div>
                  
                </div>
             </div>

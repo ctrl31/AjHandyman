@@ -37,32 +37,62 @@
                  <!--1er imagen-->
                  <!--ten cuidado con las direcciones de las imagenes-->
                   <!--como observas estas imagenes usan la clase "service_img2"  para centrar las imagenes automaticamnete " -->
-                  <div><img src="images/projects/project-1.png" class="services_img2"></div>
+                  <div><img src="images/electricity/ele_bf_1.png" class="services_img2"></div>
                   <!--Si vas a acomodar imagenes de otras formas crea otra clase para esa configuracion para no alterar todas las demas -->
                </div>
                <!--2da imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-2.png" class="services_img2"></div>
+                  <div><img src="images/electricity/ele_af_1.png" class="services_img2"></div>
                   
                </div>
                <!--3er imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-3.png" class="services_img2"></div>
+                  <div><img src="images/electricity/ele_bf_2.png" class="services_img2"></div>
                  
                </div>
                <!--4ta imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-4.png" class="services_img2"></div>
+                  <div><img src="images/electricity/ele_af_2.png" class="services_img2"></div>
                  
                </div>
                <!--5ta imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-5.png" class="services_img2"></div>
+                  <div><img src="images/electricity/ele_bf_3.png" class="services_img2"></div>
                  
                </div>
                <!--6ta imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-6.png" class="services_img2"></div>
+                  <div><img src="images/electricity/ele_af_3.png" class="services_img2"></div>
+                 
+               </div>
+               <!--5ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/electricity/ele_bf_4.png" class="services_img2"></div>
+                 
+               </div>
+               <!--6ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/electricity/ele_af_4.png" class="services_img2"></div>
+                 
+               </div>
+               <!--5ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/electricity/ele_bf_5.png" class="services_img2"></div>
+                 
+               </div>
+               <!--6ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/electricity/ele_af_5.png" class="services_img2"></div>
+                 
+               </div>
+               <!--5ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/electricity/ele_bf_6.png" class="services_img2"></div>
+                 
+               </div>
+               <!--6ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/electricity/ele_af_6.png" class="services_img2"></div>
                  
                </div>
             </div>

@@ -231,7 +231,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg3.png);
     height: auto;
     background-size: 100%;
     padding: 0px 0px 20px 0px;
@@ -335,13 +335,13 @@ button {
     width: 20%;
     float: left;
 }
-
+/*
 .header_main {
     width: 100%;
     background-image: url(../images/header-bg.png);
     background-size: 100%;
     padding: 10px 0px 0px 0px;
-}
+}*/
 
 
 /* header section end */
@@ -446,7 +446,7 @@ button {
 }
 .services_img2 {
     width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
-    max-width: 250px; /* Ajusta el tamaño máximo de las imágenes */
+    max-width: 400px; /* Ajusta el tamaño máximo de las imágenes */
     display: block;
     margin: 0 auto; /* Centra las imágenes */
     padding: 10px; /* Espacio entre imágenes */

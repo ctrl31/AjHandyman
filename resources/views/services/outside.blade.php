@@ -37,32 +37,64 @@
                  <!--1er imagen-->
                  <!--ten cuidado con las direcciones de las imagenes-->
                   <!--como observas estas imagenes usan la clase "service_img2"  para centrar las imagenes automaticamnete " -->
-                  <div><img src="images/projects/project-1.png" class="services_img2"></div>
+                  <div><img src="images/outside/out_lf_1.png" class="services_img2"></div>
                   <!--Si vas a acomodar imagenes de otras formas crea otra clase para esa configuracion para no alterar todas las demas -->
                </div>
                <!--2da imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-2.png" class="services_img2"></div>
+                  <div><img src="images/outside/out_rg_1.png" class="services_img2"></div>
                   
                </div>
                <!--3er imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-3.png" class="services_img2"></div>
+                  <div><img src="images/outside/out_lf_2.png" class="services_img2"></div>
                  
                </div>
                <!--4ta imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-4.png" class="services_img2"></div>
+                  <div><img src="images/outside/out_rg_2.png" class="services_img2"></div>
                  
                </div>
                <!--5ta imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-5.png" class="services_img2"></div>
+                  <div><img src="images/outside/out_lf_3.png" class="services_img2"></div>
                  
                </div>
                <!--6ta imagen-->
                <div class="col-md-6">
-                  <div><img src="images/projects/project-6.png" class="services_img2"></div>
+                  <div><img src="images/outside/out_rg_3.png" class="services_img2"></div>
+                 
+               </div>
+               
+                              <!--5ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/outside/out_lf_4.png" class="services_img2"></div>
+                 
+               </div>
+               <!--6ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/outside/out_rg_4.png" class="services_img2"></div>
+                 
+               </div>
+                              <!--5ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/outside/out_lf_5.png" class="services_img2"></div>
+                 
+               </div>
+               <!--6ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/outside/out_rg_5.png" class="services_img2"></div>
+                 
+               </div>
+               
+                              <!--5ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/outside/out_lf_6.png" class="services_img2"></div>
+                 
+               </div>
+               <!--6ta imagen-->
+               <div class="col-md-6">
+                  <div><img src="images/outside/out_rg_6.png" class="services_img2"></div>
                  
                </div>
             </div>

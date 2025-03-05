@@ -12,7 +12,7 @@
           without worrying about hidden additional fees.I am to provide
           professional, safe, and long-lasting results every time. With me,
           everything in your home will be in top condition.</p>
-                <div class="btn_main"><a href="{{ route('about_us') }}">Read More</a></div>
+               <!-- <div class="btn_main"><a href="{{ route('about_us') }}">Read More</a></div>-->
              </div>
           </div>
           <div class="col-md-6 padding_right_0">
